@@ -21,7 +21,7 @@ namespace CapaDatos
         {
            
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=DESKTOP-I5OBAPS;initial Catalog=BD_MADERERA;" + "Integrated Security=true";
+            cn.ConnectionString = "Data Source=DESKTOP-NM7EDQT;initial Catalog=Ecociudad;" + "Integrated Security=true";
             return cn;
            
         }

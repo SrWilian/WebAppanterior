@@ -15,6 +15,7 @@ namespace PaginaWeb.Controllers
             List<EntCliente> lista = LogCliente.Instancia.ListarCliente();
             ViewBag.lista = lista;
             return View(lista);
+            //avanza 
         }
     }
 }

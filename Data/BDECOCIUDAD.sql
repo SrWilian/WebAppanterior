@@ -52,3 +52,9 @@ BEGIN
 	Select *from Cliente where IdCliente = @IdCliente	
 END
 GO
+CREATE OR ALTER PROCEDURE spListarCliente
+as
+BEGIN
+	Select *from Cliente
+END
+GO
